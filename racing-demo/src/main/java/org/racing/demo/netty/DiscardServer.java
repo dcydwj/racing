@@ -50,7 +50,7 @@ public class DiscardServer {
         if (args.length > 0) {
             port = Integer.valueOf(args[0]);
         } else {
-            port=8080;
+            port = 8080;
         }
         try {
             new DiscardServer(port).run();
