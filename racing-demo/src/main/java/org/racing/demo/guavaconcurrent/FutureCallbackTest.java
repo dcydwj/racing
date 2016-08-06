@@ -4,7 +4,6 @@ import com.google.common.base.Throwables;
 import com.google.common.util.concurrent.*;
 
 import java.util.UUID;
-import java.util.concurrent.Callable;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
