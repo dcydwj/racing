@@ -8,7 +8,7 @@ import static com.google.common.base.Preconditions.*;
 
 /**
  * 基于时间的滑动窗口计数器 计数窗口在 period 时间间隔(秒)自动向前滑动
- * Created by zhouyun on 2016/2/22.
+ * Created by dennis on 2016/2/22.
  */
 public class TimingWindowCounter {
 	private volatile int windowSize;

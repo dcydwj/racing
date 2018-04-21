@@ -8,7 +8,7 @@ import org.racing.common.NamedDeamonThread;
 import java.util.List;
 
 /**
- * Created by zhouyun on 2016/4/27.
+ * Created by dennis on 2016/4/27.
  */
 public class DumpDeamon extends NamedDeamonThread {
     private List<NamedTopology> tops = Lists.newArrayList();

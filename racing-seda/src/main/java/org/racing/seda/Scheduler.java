@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * Created by zhouyun on 2016/4/15.
+ * Created by dennis on 2016/4/15.
  */
 public class Scheduler<T> implements FutureCallback<Void> {
     private volatile boolean stop = false;

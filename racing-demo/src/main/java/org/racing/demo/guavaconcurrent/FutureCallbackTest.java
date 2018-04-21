@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by Administrator on 2016/4/28.
+ * Created by dennis on 2016/4/28.
  */
 public class FutureCallbackTest {
     public static void main(String[] args) {

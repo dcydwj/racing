@@ -3,7 +3,7 @@ package org.racing.seda.provider;
 import org.racing.seda.Handler;
 
 /**
- * Created by zhouyun on 2016/4/23.
+ * Created by dennis on 2016/4/23.
  */
 public class OutputHandler<T> implements Handler<T> {
     @Override

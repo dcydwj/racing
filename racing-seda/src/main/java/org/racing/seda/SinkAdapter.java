@@ -1,7 +1,7 @@
 package org.racing.seda;
 
 /**
- * Created by zhouyun on 2016/4/22.
+ * Created by dennis on 2016/4/22.
  */
 public abstract class SinkAdapter implements Sink {
     private String sinkName;

@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by zhouyun on 2016/4/20.
+ * Created by dennis on 2016/4/20.
  */
 public class TopologySnapshort {
     private String name;

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.List;
 
 /**
- * Created by zhouyun on 2016/4/23.
+ * Created by dennis on 2016/4/23.
  */
 @Configuration
 @ComponentScan

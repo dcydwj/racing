@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by zhouyun on 2016/4/15.
+ * Created by dennis on 2016/4/15.
  */
 public class Dispatcher<T> {
     private List<Executor> executors;

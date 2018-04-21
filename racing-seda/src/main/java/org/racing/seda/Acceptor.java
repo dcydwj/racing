@@ -7,7 +7,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Created by zhouyun on 2016/4/15.
+ * Created by dennis on 2016/4/15.
  */
 public class Acceptor implements Runnable {
     protected Auditor auditor = Auditor.getAuditor();

@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * Created by zhouyun on 2016/2/24.
+ * Created by dennis on 2016/2/24.
  */
 public class NamedThread extends Thread {
     private final Logger logger = LoggerFactory.getLogger(getClass());

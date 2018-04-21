@@ -2,7 +2,7 @@ package org.racing.common;
 
 /**
  * 滑动窗口计数器，支持多个计数器同时计数
- * Created by zhouyun on 2016/2/22.
+ * Created by dennis on 2016/2/22.
  */
 public class SlidingWindowCounter {
     public static final String DEFAULT_TARGET = "__default_target__";

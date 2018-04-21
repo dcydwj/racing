@@ -5,7 +5,7 @@ import org.racing.seda.Sink;
 import java.util.UUID;
 
 /**
- * Created by zhouyun on 2016/4/23.
+ * Created by dennis on 2016/4/23.
  */
 public class UuidSink implements Sink {
     private int mills = 50;

@@ -1,7 +1,7 @@
 package org.racing.seda;
 
 /**
- * Created by zhouyun on 2016/4/20.
+ * Created by dennis on 2016/4/20.
  */
 public enum State {
     TERMINATED("terminated"), RUNNING("running"), SHUTTING_DOWN("shutingdown"), STARTING("starting");

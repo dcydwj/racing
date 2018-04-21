@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Created by zhouyun on 2016/4/15.
+ * Created by dennis on 2016/4/15.
  */
 public class Executor {
     private final Auditor auditor = Auditor.getAuditor();

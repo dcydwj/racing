@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * 基于对象插槽的计数器
- * Created by zhouyun on 2016/2/22.
+ * Created by dennis on 2016/2/22.
  */
 public class SlotBaseCounter {
     private Map<Object, AtomicInteger[]> slotCounterHolder = Maps.newConcurrentMap();

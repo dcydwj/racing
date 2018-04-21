@@ -4,7 +4,7 @@ package org.racing.seda;
 import org.racing.common.NamedThread;
 
 /**
- * Created by zhouyun on 2016/4/15.
+ * Created by dennis on 2016/4/15.
  */
 public class Worker extends NamedThread {
 

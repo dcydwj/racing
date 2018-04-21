@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by zhouyun on 2016/4/22.
+ * Created by dennis on 2016/4/22.
  */
 public class NamedTopology {
     protected Auditor auditor = Auditor.getAuditor();
