@@ -28,14 +28,10 @@ public class Acceptor implements Runnable {
     @Override
     public final void run() {
         while (!stop && !Thread.interrupted()) {
-            /*auditor.debug("[Acceptor][{}] stop = {}, iterrupted = {}",
-                    sink, stop, Thread.currentThread().isInterrupted());*/
             String accept = accept();
             if (accept != null) {
                 taskQueue.add(accept);
                 acceptEventCount++;
-                //auditor.info("[Acceptor][{}] accept event: {}", Thread.currentThread().getName(), accept);
-                //auditor.info("[Acceptor][{}] queueSize = {}", Thread.currentThread().getName(), taskQueue.size());
             }
         }
         auditor.info("[Acceptor][{}] stoped completely.", Thread.currentThread().getName());

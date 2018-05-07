@@ -21,7 +21,7 @@ public class DemoStage extends Stage<String> {
 
     public DemoStage() {
         super("DemoStage");
-        outputHandlers.add(new OutputHandler<String>());
+        outputHandlers.add(new OutputHandler<>());
     }
 
     @PostConstruct

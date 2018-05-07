@@ -4,7 +4,10 @@ package org.racing.seda;
  * Created by dennis on 2016/4/20.
  */
 public enum State {
-    TERMINATED("terminated"), RUNNING("running"), SHUTTING_DOWN("shutingdown"), STARTING("starting");
+    TERMINATED("terminated"),
+    RUNNING("running"),
+    SHUTTING_DOWN("shutingdown"),
+    STARTING("starting");
 
     private String value;
 

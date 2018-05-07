@@ -34,7 +34,7 @@ public class Stage<T> implements Runnable {
         this.sink = Preconditions.checkNotNull(sink);
     }
 
-    public Stage(String name, Sink sink, List<Handler<T>> handlers) {
+    public Stage(String name, Sink sink, List<Handler<T>> handlers)  {
         this(name, sink);
         this.handlers = Preconditions.checkNotNull(handlers);
     }
